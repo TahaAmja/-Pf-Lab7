@@ -1,0 +1,20 @@
+ #include<stdio.h>
+int main()
+{
+int str[7];
+printf("Enter temperature of a week");
+scanf("%d",str);
+int max=str[0];
+int min=str[0];
+for(int i=0;i<=7;i++)
+{
+sum+=str[i];
+if(str[i]>max)
+max=str[i];
+if(str[i]<min)
+min=str[i];
+}
+int avg=sum/7;
+printf("AVG=%d  MAXIMUM=%d  MINIMUM=%d" ,avg,maxmin);
+return 0;
+}

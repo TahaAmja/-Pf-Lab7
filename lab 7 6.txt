@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+int n;
+printf("Enter size of string");
+scanf("%d",n);
+int str[n];
+printf("Enter data");
+scanf("%d",str);
+int sum[max_str]={0};
+for(int i=0;i<=n;i++)
+{
+sum[str[i]]++;
+printf("\nOccurance digits are:");
+if(sum[str[i]]>1)
+{
+printf("%d\n" ,str[i]);
+}
+count[str[i]] = 0;
+}
+return 0;
+}
